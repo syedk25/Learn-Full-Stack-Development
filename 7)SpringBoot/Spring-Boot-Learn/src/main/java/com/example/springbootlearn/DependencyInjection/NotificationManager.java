@@ -1,4 +1,4 @@
-package com.example.springbootlearn.di;
+package com.example.springbootlearn.DependencyInjection;
 
 import org.springframework.stereotype.Component;
 
