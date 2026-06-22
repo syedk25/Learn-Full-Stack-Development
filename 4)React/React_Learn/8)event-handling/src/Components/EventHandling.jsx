@@ -21,7 +21,7 @@ function MyButton() {
  */}
  
       {/* if argument => specify arrow function*/}
-      <button onClick={() => sayHello('Hello Syed!')}>say Hello</button>
+      <button onClick={() => sayHello()}>say Hello</button>
 
     </>
   )

@@ -1,5 +1,3 @@
-
-
 function Greeting({ user })
  { 
     return (

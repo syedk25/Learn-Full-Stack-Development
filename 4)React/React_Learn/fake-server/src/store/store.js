@@ -10,7 +10,8 @@ export const store = configureStore({
  
   
  
-//  1)  the reducer object stores all reducers and you can add as many you want  
+//  1)  Name of the Slice, that Store reducers.
+//  and you can add as many you want  
 
 // Reducer: 
         // A  function, that takes the current (state, action) as arguments 
