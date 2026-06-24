@@ -7,7 +7,7 @@ export default function ContactForm() {
       </label>
       <label>
         Email
-        <input type="email" name="email" placeholder="you@example.com" />
+        <input type="email" name="email" placeholder="your@example.com" />
       </label>
       <label>
         Message
