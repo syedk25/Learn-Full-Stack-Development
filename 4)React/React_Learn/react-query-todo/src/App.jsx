@@ -152,6 +152,7 @@ export default function App() {
             ? "Load More"
             : "No More Todos"}
       </button>
+      <h1 style={{ marginTop: "2rem" }}>React Query Unified Todo App</h1>
     </div>
   );
 }
