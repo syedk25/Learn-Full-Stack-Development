@@ -2,12 +2,12 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-gray-200 mt-12 h-96">
-      <div className="container mx-auto flex  pt-32">
+    <footer className="bg-gray-200 mt-12 md:mt-32 p-4 sm:p-8">
+      <div className="container mx-auto flex flex-col md:flex-row pt-32">
         <div className="w-1/4">
           <p className="font-medium text-2xl">Syed Code</p>
         </div>
-        <div className="w-1/2 flex">
+        <div className="w-1/2 flex flex-col md:flex-row gap-8">
           <div className="pr-20">
             <h2 className="text-xl font-bold">Links</h2>
             <ul className="space-y-2 mt-4">

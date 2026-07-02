@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div
+      class="relative w-full h-32 bg-url('https://source.unsplash.com/random') bg-cover"
+    >
+      <div class="absolute inset-0 flex items-center justify-center">
+        <!-- Glass Effect -->
+        <div
+          class="backdrop-blur-md bg-black/30 border border-white/20 p-4 rounded shadow-lg"
+        >
+          <p class="font-bold text-black">Glass Effect</p>
+        </div>
+      </div>
+    </div>
+
+    
+<button disabled class="bg-blue-500 text-white px-4 py-2 rounded disabled:opacity-50 disabled:cursor-not-allowed">
+Processing...
+</button>
+
+  </body>
+</html>
